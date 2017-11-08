@@ -5,7 +5,10 @@ date: 2017-11-08
 tags: 博客
 ---
 
-### Jekyll 开始之前
+### Jekyll
+简介
+
+
 安装 jekyll
 
 ```
@@ -30,8 +33,7 @@ $ cd XXX/bamboogBlog
 $ jekyll serve
 ```
 
-在浏览器里输入： [http://localhost:4000](http://localhost:4000)，就可以看到你的效果了。
-
+在浏览器里输入： [http://localhost:4000](http://localhost:4000)，看效果。
 
 
 
@@ -47,6 +49,7 @@ bamboogBlog jekyll  serve
  from /usr/local/bin/jekyll:23:in `<main>'
 ```
   - ans
+
    ```
    apt-get install bundler
 
@@ -80,7 +83,7 @@ bamboogBlog jekyll  serve
 
 - 上传github
   - 申请账号
-  - 添加类似这样的仓库:bamboog.github.io;bamboog是你对应的github名字
-  - push jekll生成的blog项目到github,类似这样访问:https://bamboog.github.io/
+  - 添加类似这样的仓库:`bamboog.github.io` ; `bamboog`是你对应的github名字
+  - push jekyll 生成的blog项目到github,类似这样访问:https://bamboog.github.io/
   - 完事
 - 修改
