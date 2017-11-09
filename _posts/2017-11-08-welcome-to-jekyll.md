@@ -36,8 +36,8 @@ $ jekyll serve
 在浏览器里输入： [http://localhost:4000](http://localhost:4000)，看效果。
 
 
-问题1
-  -
+- 问题1
+
 ```
 bamboogBlog jekyll  serve
 /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler (LoadError)
@@ -47,13 +47,13 @@ bamboogBlog jekyll  serve
  from /usr/local/bin/jekyll:23:in `load'
  from /usr/local/bin/jekyll:23:in `<main>'
 ```
-  - ans
-
+  ans
    ```
    apt-get install bundler
-
    ```
-问题2(类似)
+
+- 问题2(类似)
+
     ```
     bamboogBlog jekyll  serve
 /var/lib/gems/2.3.0/gems/bundler-1.16.0/lib/bundler/resolver.rb:288:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'minima (~> 2.0)' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
@@ -74,11 +74,11 @@ bamboogBlog jekyll  serve
  from /usr/local/bin/jekyll:23:in `<main>'
 
     ```
-  - ans
+
+  ans
     ```
     gem install minima
     ```
-
 上传github
   - 申请账号
   - 添加类似这样的仓库:`bamboog.github.io` ; `bamboog`是你对应的github名字
