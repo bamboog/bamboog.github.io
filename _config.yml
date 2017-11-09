@@ -53,7 +53,7 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: done
+    title: 主站
 
 # Navigation buttons in the front page.s
 nav:
