@@ -1,7 +1,0 @@
----
-layout: post
-title: BambooMq
-date: 2017-11-10
-tags: mq
----
-## BambooMq

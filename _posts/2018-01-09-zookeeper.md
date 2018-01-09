@@ -22,6 +22,7 @@ Connecting to localhost:2181
 ...
 ```
 就可以开始你的旅行了.....
+
 #### 基本命令
 - ls /
 - ls2 / (多了其它相关信息，比如时间，版本等)
@@ -32,6 +33,7 @@ Connecting to localhost:2181
 - help
 备注：
 /XXX  代表一个znode
+
 #### Java端
 
 #### 生产
@@ -42,6 +44,7 @@ Connecting to localhost:2181
 - 分布式通知/协调
 - 集群管理/master选举
 - 分布式锁/队列/计数
+
 #### 原理
 - Paxos
   - 问题案例：
