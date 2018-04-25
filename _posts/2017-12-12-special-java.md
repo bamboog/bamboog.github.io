@@ -2,7 +2,7 @@
 layout: post
 title: special java
 date: 2017-12-12
-tags: java
+tags: JAVA
 ---
 ## special java--- why do like this?
 ```java

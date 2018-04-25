@@ -2,7 +2,7 @@
 layout: post
 title: ZooKeeper
 date: 2018-01-09
-tags: zk
+tags: 分布式
 ---
 ## ZooKeeper
 
