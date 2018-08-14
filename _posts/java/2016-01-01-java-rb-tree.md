@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  test
+title:  红黑树
 date: 2016-01-01
 tags: java
 ---
-## Java 类型概要 test
+## Java 红黑树
