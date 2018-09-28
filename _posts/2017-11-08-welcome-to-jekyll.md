@@ -85,32 +85,8 @@ bamboogBlog jekyll  serve
   - 完事
 修改
 
-.
-├── _config.yml
-├── _data
-|   └── members.yml
-├── _drafts
-|   ├── begin-with-the-crazy-ideas.md
-|   └── on-simplicity-in-technology.md
-├── _includes
-
-
-
-```
-project
-│   README.md
-│   file001.txt    
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
-```
+<details>
+  <summary>点击时的区域标题</summary>
+  <p> - 测试 测试测试</p>
+  <p> 测试二 测试三 。。。。。 .</p>
+</details>
