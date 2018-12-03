@@ -102,9 +102,60 @@ tags: java
         }
       ```
 
+    - 队列设计
+      - 最小堆
+      - add-task
+        ```java
+        private void fixUp(int k) {
+        while (k > 1) {
+            int j = k >> 1;
+            if (queue[j].nextExecutionTime <= queue[k].nextExecutionTime)
+                break;
+            TimerTask tmp = queue[j];  queue[j] = queue[k]; queue[k] = tmp;
+            k = j;
+        }
+       }
+        ```
+      -
+
+- 原理
+  - 主要靠wait,notify
+- 存在的问题
+  - 依赖系统时间
+  - 单线程
+  - 只处理了InterruptedException，其他异常会中断任务
+- 如果是你，怎么改进
+  - nanoTime 相对时间
+  - 线程池
+  - 异常捕获
+
 #### ScheduledThreadPoolExecutor
   - 相比Timer,突出的是什么
-  - 所以设计为
+    - nanoTime
+    - extends ThreadPoolExecutor
+    - 异常处理
+      ```java
+      try {
+          beforeExecute(wt, task);
+          Throwable thrown = null;
+          try {
+              task.run();
+          } catch (RuntimeException x) {
+              thrown = x; throw x;
+          } catch (Error x) {
+              thrown = x; throw x;
+          } catch (Throwable x) {
+              thrown = x; throw new Error(x);
+          } finally {
+              afterExecute(task, thrown);
+          }
+      } finally {
+          task = null;
+          w.completedTasks++;
+          w.unlock();
+      }
+      ```
+  - 所以设计
 
 #### BSchedule
   - 为什么要做
