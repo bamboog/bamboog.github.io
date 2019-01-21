@@ -1,224 +1,710 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+    <meta charset="utf-8">
+    
+    <title>Bamboog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Bamboog">
+<meta property="og:url" content="https://bamboog.github.io/index.html">
+<meta property="og:site_name" content="Bamboog">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:title" content="Bamboog">
+    
+
+    
+        <link rel="alternate" href="https://github.com/bamboog" title="Bamboog" type="application/atom+xml">
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/open-sans/styles.css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/vendor/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery.min.css">
+    
+    
+    
+    
+    
+
+
 </head>
 </html>
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Bamboog</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">主页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png">
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
     </div>
-  </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">主页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png">
+            <h2 id="name">bamboog</h2>
+            <h3 id="title">Java &amp; Designer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>YunNan, China</span>
+            <a id="follow" target="_blank" href="https://github.com/bamboog">关注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                2
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                2
+                <span>标签</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/bamboog" target="_blank" title="github" class="tooltip">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://github.com/bamboog" target="_blank" title="twitter" class="tooltip">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://github.com/bamboog" target="_blank" title="facebook" class="tooltip">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://github.com/bamboog" target="_blank" title="dribbble" class="tooltip">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://github.com/bamboog" target="_blank" title="rss" class="tooltip">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main">
+    <article id="post-wode" class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2019/01/21/wode/">wode</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/01/21/wode/">
+            <time datetime="2019-01-21T13:58:36.000Z" itemprop="datePublished">2019-01-21</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/sdlfkj/">sdlfkj</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/jsdk/">jsdk</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>sdkljfldsjfldksf</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bamboog.github.io/2019/01/21/wode/" data-id="cjr6evrix0000xsfyzd9tczfd" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bamboog.github.io/2019/01/21/wode/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://bamboog.github.io/2019/01/21/wode/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-test" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/21/test/" class="article-date">
-  <time datetime="2019-01-21T13:01:24.000Z" itemprop="datePublished">2019-01-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+    <div class="article-inner">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/21/test/">test</a>
-    </h1>
-  
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2019/01/21/test/">test</a>
+        </h1>
+    
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/01/21/test/">
+            <time datetime="2019-01-21T13:20:13.000Z" itemprop="datePublished">2019-01-21</time>
+        </a>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/21/test/" data-id="cjr6carq10001qlfy7bhx4a3s" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/21/hello-world/" class="article-date">
-  <time datetime="2019-01-21T10:36:57.897Z" itemprop="datePublished">2019-01-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/21/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/java/">java</a>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/21/hello-world/" data-id="cjr6carpw0000qlfyx1080s4i" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/test/">test</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>目录</p>
+<ol>
+<li>规范背景与目的<br>2.1 数据库设计<br>2.2 库名<br>2.3 表结构<br>2.4 列数据类型优化<br>2.5 索引设计<br>2.6 字符集</li>
+<li>SQL编写<br>3.1. DML语句<br>3.2 排序和分组<br>3.3 线上禁止使用的SQL语句</li>
+<li><p>一个规范的建表语句示例</p>
+<p>1.规范背景与目的<br>MySQL数据库与oracle、sqlserver等数据库相比，有其内核上的优势与劣势。我们在使用MySQL数据库的时候需要遵循一定规范，扬长避短。<br>本规范旨在帮助或指导RD、QA、OP等技术人员做出适合线上业务的数据库设计。<br>在数据库变更和处理流程、数据库表设计、SQL编写等方面予以规范，从而为公司业务系统稳定、健康地运行提供保障。</p>
+</li>
+</ol>
+<p>2.1 数据库设计<br>以下所有规范会按照【高危】、【强制】、【建议】三个级别进行标注，遵守优先级从高到低。<br>对于不满足【高危】和【强制】两个级别的设计，DBA会强制打回要求修改。<br>2.2. 库名</p>
+<ol>
+<li>【强制】库的名称必须控制在32个字符以内，相关模块的表名与表名之间尽量提现join的关系禁止拼音英文混用，如user表和user_login表。</li>
+<li>【强制】库的名称格式：业务系统名称_子系统名，同一模块使用的表名尽量使用统一前缀。</li>
+<li>【强制】创建数据库时必须显式指定字符集，并且字符集utf8或utf8mb4<pre><code>创建数据库SQL举例：
+Create database db1 default character set utf8mb4;
+</code></pre>2.3 表结构</li>
+<li>【强制】表和列的名称必须控制在32个字符以内，表名只能使用字母、数字和下划线，一律小写。</li>
+<li>【强制】表名要求模块名强相关，如师资系统采用”sz”作为前缀，渠道系统采用”qd”作为前缀等。</li>
+<li>【强制】创建表时必须显式指定字符集为utf8mb4</li>
+<li>【强制】创建表时必须显式指定表存储引擎类型，如无特殊需求，一律为InnoDB。当需要使用除InnoDB/MyISAM/Memory以外的存储引擎时，必须通过DBA审核才能在生产环境中使用。</li>
+<li>【强制】建表必须有comment</li>
+<li>【强制】要求主键为id，类型为int或bigint，且为auto_increment，主键选择非业务相关列。<pre><code>解读： 如果设为主键且主键值为随机插入，则会导致innodb内部page分裂和大量随机I/O，性能下降。
+</code></pre>7.【强制】禁止使用“tmp_”开头，“bak_”开头存在库里。<br>9.【强制】表中所有字段必须都是NOT NULL属性，业务可以根据需要定义DEFAULT值。<pre><code> 解读：
+1）null的列使索引/索引统计/值比较都更加复杂，对MySQL来说更难优化；
+2）null 这种类型MySQL内部需要进行特殊处理，增加数据库处理记录的复杂性；同等条件下，表中有较多空字段的时候，数据库的处理性能会降低很多；
+3）null值需要更多的存储空，无论是表还是索引中每行中的null的列都需要额外的空间来标识；
+4）对null 的处理时候，只能采用is null或is not null，而不能采用=、in、&lt;、&lt;&gt;、!=、not in这些操作符号。如：where name!=’shenjian’，如果存在name为null值的记录，查询结果就不会包含name为null值的记录；
+</code></pre></li>
+<li>【建议】核心表（如用户表，金钱相关的表）必须有行数据的创建时间字段create_time和最后更新时间字段update_time，便于查问题。<br>10.【建议】对于DDL操作，必须经过DBA审核，并在业务低峰期执行。<br>11.【建议】单实例表数目必须小于500。<br>12.【建议】单表列数目必须小于30。<br>2.4 列数据类型优化<br>1.【建议】.必须使用varchar(20)存储手机号；<pre><code> 解读：
+1）涉及到区号或者国家代号，可能出现+-()
+2）手机号会去做数学运算么？
+3）varchar可以支持模糊查询，例如：like“138%”；
+</code></pre>2.【建议】业务中选择性很少的状态status、类型type等字段推荐使用tinytint或者smallint类型节省存储空间。<br>3.【建议】业务中IP地址字段推荐使用无符号int类型，不推荐用char(15)<pre><code>解读：
+int只占4字节，可以用如下函数相互转换，而char(15)占用至少15字节。一旦表数据行数到了1亿，那么要多用1.1G存储空间！
+SQL：select inet_aton(&apos;192.168.2.12&apos;); select inet_ntoa(3232236044);
+Php: ip2long(‘192.168.2.12’); long2ip(3530427185);
+</code></pre>4.【禁止】使用enum，set，推荐tinyint<pre><code>  解读：
+1） 因为它们浪费空间，且枚举值写死了，变更不方便。
+2）增加新的ENUM值要做DDL操作；
+3）ENUM的内部实际存储就是整数，实际上并不是自定义的字符串；
+</code></pre>5.【禁止】使用blob，text等类型<pre><code>解读：
+它们都比较浪费硬盘和内存空间。在加载表数据时，会读取大字段到内存里从而浪费内存空间，影响系统性能。建议和PM、RD沟通，是否真的需要这么大字段？
+Innodb中当一行记录超过8098字节时，会将该记录中选取最长的一个字段将其768字节放在原始page里，该字段余下内容放在overflow-page里。不幸的是在compact行格式下，原始page和overflow-page都会加载。
+</code></pre>6.【建议】存储金钱的字段，建议用int，程序端乘以100和除以100进行存取。<pre><code>解读：
+因为int占用4字节，而double占用8字节，空间浪费。
+</code></pre>7.【建议】文本数据尽量用varchar存储<pre><code>解读：
+1）varchar是变长存储，比char更省空间。MySQL server层规定一行所有文本最多存65535字节，因此在utf8字符集下最多存21844个字符，超过会自动转换为mediumtext字段。而text在utf8字符集下最多存21844个字符，mediumtext                      最多存2^24/3个字符，longtext最多存2^32个字符
+2）一般建议用varchar类型，字符数不要超过2700
+</code></pre>8.【建议】时间类型尽量选取datetime<pre><code> 解读：
+5.6.4之后datetime 支持更新当前时间，大小从8字节变为了5字节，和timestamp性能相差无几，datetime的范围更大，无时区问题。
+</code></pre>2.5 索引设计</li>
+<li>【强制】InnoDB表必须主键为id int/bigint auto_increment,且主键值禁止被更新。</li>
+<li>【建议】主键的名称以“pk_”开头，唯一键以“uk_”或“uq_”开头，普通索引以“idx_”开头，一律使用小写格式，以表名/字段的名称或缩写作为后缀。</li>
+<li>【建议】单个表上的索引个数不能超过7个</li>
+<li>【禁止】在更新十分频繁、区分度不高的属性上建立索引<pre><code> 解读：
+1）更新会变更B+树，更新频繁的字段建立索引会大大降低数据库性能
+2）“性别”这种区分度不大的属性，建立索引是没有什么意义的，不能有效过滤数据，性能与全表扫描类似
+</code></pre></li>
+<li>【建议】在建立索引时，多考虑建立联合索引，并把区分度最高的字段放在最前面。</li>
+<li><p>【建议】建表或加索引时，保证表里互相不存在冗余索引</p>
+<pre><code>解读：
+对于MySQL来说，如果表里已经存在key(a,b)，则key(a)为冗余索引，需要删除。
+</code></pre><p>2.6 字符集</p>
+</li>
+<li><p>【强制】数据库本身库、表、列所有字符集必须保持一致，为utf8或utf8mb4。</p>
+</li>
+<li>【强制】前端程序字符集或者环境变量中的字符集，与数据库、表的字符集必须一致，统一为utf8<br>3 SQL编写<br>3.1 DML语句<br>1.【强制】SELECT语句必须指定具体字段名称，禁止写成“*”<pre><code> 解读：
+1）读取不需要的列会增加CPU、IO、NET消耗
+2）不能有效的利用覆盖索引
+3）使用SELECT *容易在增加或者删除字段后出现程序BUG
+</code></pre>2.【强制】insert语句指定具体字段名称，不要写成insert into t1 values(…)，道理同上。<pre><code>解读:
+容易在增加或者删除字段后出现程序BUG；
+</code></pre>3.【禁止】使用属性隐式转换；<pre><code>解读：
+举例：SELECT uid FROM t_user WHERE phone=13812345678 会导致全表扫描，而不能命中phone索引，猜猜为什么？（这个线上问题不止出现过一次）建立组合索引，必须把区分度高的字段放在前面；
+</code></pre>4.【禁止】在WHERE条件的属性上使用函数或者表达式；<pre><code>解读：
+举例：SELECT uid FROM t_user WHERE from_unixtime(day)&gt;=&apos;2017-02-15&apos; 会导致全表扫描
+正确的写法是：SELECT uid FROM t_user WHERE day&gt;= unix_timestamp(&apos;2017-02-15 00:00:00&apos;)
+</code></pre>5.【禁止】负向查询，以及%开头的模糊查询；<pre><code> 解读：
+1）负向查询条件：NOT、!=、&lt;&gt;、!&lt;、!&gt;、NOT IN、NOT LIKE等，会导致全表扫描；
+2）%开头的模糊查询，会导致全表扫描；
+</code></pre>6.【强制】DML语句必须有where条件。<br>7.【强制】WHERE 子句中禁止只使用全模糊的LIKE条件进行查找，必须有其他等值或范围查询条件，否则无法利用索引。<br>8.【建议】减少使用or语句，可将or语句优化为union，然后在各个where条件上建立索引。如where a=1 or b=2优化为where a=1… union …where b=2, key(a),key(b)</li>
+</ol>
+<p>3.2 排序和分组<br>1.【建议】减少使用order by，能不排序就不排序，或将排序放到程序端去做。Order by、group by、distinct这些语句较为耗费CPU，数据库的CPU资源是极其宝贵的。<br>2.【建议】order by、group by、distinct这些SQL尽量利用索引直接检索出排序好的数据。如where a=1 order by可以利用key(a,b)。<br>3.【建议】包含了order by、group by、distinct这些查询的语句，where条件过滤出来的结果集请保持在1000行以内，否则SQL会很慢。<br>4.【高危】禁用update|delete t1 … where a=XX limit XX; 这种带limit的更新语句。<br>3.3 线上禁止使用的SQL语句<br>1.【高危】禁用update|delete t1 … where a=XX limit XX; 这种带limit的更新语句。<br>                 解读：<br>                 因为会导致主从不一致，导致数据错乱。建议加上order by PK<br>2.【高危】禁止使用关联子查询，如update t1 set … where name in(select name from user where…);效率极其低下并且事后不可查。<br>3.【强制】禁用procedure、function、trigger、views、event、外键约束。<br>                 解读：<br>                 因为他们消耗数据库资源，降低数据库集群可扩展性。推荐都在程序端实现。<br>4.【强制】禁止联表更新语句，如update t1,t2 where t1.id=t2.id…</p>
+<ol start="4">
+<li>一个规范的建表语句示例<br>一个较为规范的建表语句为：<br>CREATE TABLE user (<br><code>id</code> int(11) NOT NULL AUTO_INCREMENT COMMENT ‘主键’,<br><code>user_id</code> bigint(11) NOT NULL DEFAULT ‘0’ COMMENT ‘用户id’,<br><code>username</code> varchar(45) NOT NULL DEFAULT ‘’ COMMENT ‘真实姓名’,<br><code>email</code> varchar(30) NOT NULL DEFAULT ‘’ COMMENT ‘用户邮箱’,<br><code>nickname</code> varchar(45) NOT NULL DEFAULT ‘’ COMMENT ‘昵称’,<br><code>avatar</code> int(11) NOT NULL DEFAULT ‘0’ COMMENT ‘头像’,<br><code>birthday</code> date NOT NULL DEFAULT ‘1901-01-01’ COMMENT ‘生日’,<br><code>short_introduce</code> varchar(150) NOT NULL DEFAULT ‘’ COMMENT ‘一句话介绍，最多50个汉字’,<br><code>user_resume</code> varchar(300) NOT NULL DEFAULT ‘’ COMMENT ‘用户提交的简历存放地址’,<br><code>user_register_ip</code> int NOT NULL DEFAULT ‘0’ COMMENT ‘用户注册时的源ip’,<br><code>create_time</code> datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT ‘创建时间’,<br><code>update_time</code> datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT ‘更新时间’ ,<br><code>user_review_status</code> tinyint(4) NOT NULL DEFAULT ‘4’ COMMENT ‘用户资料审核状态，1通过，2审核中，3未通过，4还未提交审核’,<br>PRIMARY KEY (<code>id</code>),<br>UNIQUE KEY <code>idx_user_id</code> (<code>user_id</code>),<br>KEY <code>idx_username</code>(<code>username</code>),<br>KEY <code>idx_create_time</code>(<code>create_time</code>,<code>user_review_status</code>)<br>) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=’网站用户基本信息’;</li>
+</ol>
+<p>每个表必须有字段，且字段定义必须和上表一致：<br>create_time<br>update_time</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bamboog.github.io/2019/01/21/test/" data-id="cjr6evrjl0005xsfyjmoou9ei" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bamboog.github.io/2019/01/21/test/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://bamboog.github.io/2019/01/21/test/">评论</a>
+    
+
+        </footer>
+    </div>
+    
 </article>
-
-
-  
 
 
 </section>
+            
+                <aside id="sidebar">
+   
         
-          <aside id="sidebar">
-  
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/01/21/wode/" class="thumbnail">
     
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
 
-  
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/sdlfkj/">sdlfkj</a></p>
+                            <p class="item-title"><a href="/2019/01/21/wode/" class="title">wode</a></p>
+                            <p class="item-date"><time datetime="2019-01-21T13:58:36.000Z" itemprop="datePublished">2019-01-21</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/01/21/test/" class="thumbnail">
     
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/java/">java</a></p>
+                            <p class="item-title"><a href="/2019/01/21/test/" class="title">test</a></p>
+                            <p class="item-date"><time datetime="2019-01-21T13:20:13.000Z" itemprop="datePublished">2019-01-21</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
 
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
         
-          <li>
-            <a href="/2019/01/21/test/">test</a>
-          </li>
-        
-          <li>
-            <a href="/2019/01/21/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
+    <div class="widget-wrap">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/sdlfkj/">sdlfkj</a><span class="category-list-count">1</span></li></ul>
+        </div>
     </div>
-  </div>
 
-  
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/jsdk/">jsdk</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/jsdk/" style="font-size: 10px;">jsdk</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2019 bamboog<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
     </div>
-  </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+        
+    
+    <script>
+    var disqus_config = function () {
+        
+        this.page.identifier = '';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+
+    
+        <script src="/vendor/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-share.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-video.min.js"></script>
+    
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
 
-
-<script src="/js/script.js"></script>
-
-
-
-  </div>
+    </div>
 </body>
 </html>
