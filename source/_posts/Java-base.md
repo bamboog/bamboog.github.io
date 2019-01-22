@@ -1,9 +1,9 @@
 ---
 title: Java_base
 date: 2019-01-22 20:34:34
-tags:
+tags: Java
+categories: Language
 ---
-
 ## Java 类型概要
 我们本来的理解是：一个英文占一个字节,一个汉字占两个字节；但是这是理论上的能存储下，实际情况和什么语言，放什么类型相关；
 
@@ -16,13 +16,14 @@ tags:
 - float: 4
 - double: 8
 - boolean: 1
+<!-- more -->
 
 #### 包装-解包
 - 集合泛型需要object类型，基础类型需要包装
 - 和基本类型比较的时候需要自动解包对比
 - 基本类型存储到栈，包装后的对象实际存储堆
 - 所以有：
-  ```
+  ```java
   Integer t1 =127;
   int t2=127;
   t1 == t2 //true
@@ -39,8 +40,8 @@ tags:
 - Character 0-127
 - 其它 -128-127 一个带符号字节
 - 所以才有:
-  - ``` Integer t1 =127;Integer t2=127;t1 == t2 //true ```
-  - ``` Integer t1 =300;Integer t2=300;t1 == t2 //false ```
+  ``` Integer t1 =127;Integer t2=127;t1 == t2 //true ```
+  ``` Integer t1 =300;Integer t2=300;t1 == t2 //false ```
 
 #### 内存大小
 - 根据《深入理解Java虚拟机》,对象内存存储分为三块：对象头(Header)，实例数据(Instance Data)，对齐填充(Padding)

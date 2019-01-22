@@ -1,9 +1,9 @@
 ---
 title: Mysql-log
 date: 2019-01-22 20:30:15
-tags: DB
+tags: mysql
+categories: DB
 ---
-
 
 #### redo log
 - redo log是InnoDB存储引擎层的日志
@@ -11,6 +11,7 @@ tags: DB
 
 - 重做日志有一个缓存区Innodb_log_buffer，当重做日志缓存可用空间 少于一半时，重做日志缓存被刷新到重做日志文件
 
+<!-- more -->
 
 #### undo log
 - undo log 回滚日志，保存了事务发生之前的数据的一个版本，可以用于回滚，同时可以提供多版本并发控制下的读（MVCC）

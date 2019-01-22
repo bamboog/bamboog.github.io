@@ -1,5 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+tags: Java
+categories: Language
 ---
+
+
+
+
+<!-- more -->
