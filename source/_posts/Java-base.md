@@ -1,7 +1,7 @@
 ---
 title: Java_base
 date: 2019-01-22 20:34:34
-tags: Java
+tags: java
 categories: Language
 ---
 ## Java 类型概要

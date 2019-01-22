@@ -1,7 +1,7 @@
 ---
 title: Java_timer
 date: 2019-01-22 20:38:32
-tags: Java
+tags: java
 categories: Language
 ---
 ## 常用定时器
