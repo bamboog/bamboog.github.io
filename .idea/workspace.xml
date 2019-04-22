@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a696275-289e-47f5-bd41-e5fe2fd0bded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/icarus/source/images/alipayimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/icarus/source/images/weipayimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/source/images/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/source/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/source/images/thumbnail.svg" beforeDir="false" />
-    </list>
+    <list default="true" id="7a696275-289e-47f5-bd41-e5fe2fd0bded" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +12,7 @@
     <session id="-102061780">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -27,13 +21,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="3" />
+          <entry key="png" value="6" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
+          <entry key="Image" value="6" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -44,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548928223019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548928424094" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -163,12 +157,12 @@
       <updated>1548139981628</updated>
       <workItem from="1548139983164" duration="874000" />
       <workItem from="1548142365963" duration="453000" />
-      <workItem from="1548927925842" duration="286000" />
+      <workItem from="1548927925842" duration="1088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1613000" />
+    <option name="totallyTimeSpent" value="2415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -189,9 +183,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34489796" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34489796" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -227,16 +221,16 @@
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/images/weipayimg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/images/avatar.png">
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/images/alipayimg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/images/alipayimg.png">
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/images/avatar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
