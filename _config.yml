@@ -7,13 +7,13 @@ title: bamboog
 subtitle:
 description:
 keywords:
-author: bamboog
+author: Bamboo
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://bamboog.github.io
+url: https://bamboog.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
