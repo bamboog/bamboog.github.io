@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  object
 date: 2017-03-12
-tags: java
+tags: Java
 ---
 ####  Object类的基本方法
       - thing put before--对象

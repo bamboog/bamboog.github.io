@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  B树
 date: 2016-02-02
-tags: java
+tags: Java
 ---
 
 ### B树

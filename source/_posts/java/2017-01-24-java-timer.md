@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  java-定时器
 date: 2017-01-24
-tags: java
+tags: Java
 ---
 
 ## 常用定时器
